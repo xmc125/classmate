@@ -18,7 +18,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.classmate.server.properties.DatabaseProperties;
 
 @Configuration
-@ComponentScan(basePackages = { "com.classmate.server", })
+@ComponentScan(basePackages = { "com.classmate.server" })
 @MapperScan("com.classmate.server.dao.mapper")
 public class Config {
 	
