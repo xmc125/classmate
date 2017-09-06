@@ -71,7 +71,7 @@
 		</plugin>
 	</plugins>
 	<resources>
-<!-- 		<resource>
+ 		<resource>
 			<directory>src/main/java</directory>
 			<includes>
 				<include>**/*.properties</include>
@@ -79,7 +79,7 @@
 			</includes>
 
 			<filtering>false</filtering>
-		</resource> -->
+		</resource> 
 
 		<resource>
 			<directory>src/main/resource</directory>
