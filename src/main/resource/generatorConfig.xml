@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
-    <classPathEntry location="C:/Users/xumch/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar"/>
+    <classPathEntry location="D:\repositorys\mysql\mysql-connector-java\5.1.45/mysql-connector-java-5.1.45.jar"/>
     <context id="mybatis-generator-demo" targetRuntime="MyBatis3">
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://139.224.234.128:3306/classmate"
-                        userId="root" password="root" />
+                        userId="root" password="vDiRGjIOzBJxQqy2" />
 
         <javaModelGenerator targetPackage="com.classmate.server.model" targetProject="classmate-server/src/main/java">
             <property name="enableSubPackages" value="true"/>
@@ -17,6 +17,7 @@
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
+		<!-- 
         <table tableName="user" domainObjectName="User">
             <generatedKey column="ID" sqlStatement="Mysql" identity="true" />
         </table>
@@ -24,6 +25,10 @@
             <generatedKey column="ID" sqlStatement="Mysql" identity="true" />
         </table>
         <table tableName="picture" domainObjectName="Picture">
+            <generatedKey column="ID" sqlStatement="Mysql" identity="true" />
+        </table>
+		 -->
+        <table tableName="t_pass" domainObjectName="Pass">
             <generatedKey column="ID" sqlStatement="Mysql" identity="true" />
         </table>
         
